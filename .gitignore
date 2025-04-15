@@ -1,0 +1,16 @@
+node_modules/
+dist/
+
+logs/
+*.log
+npm-debug.log*
+
+.DS_Store
+
+.vscode/
+.idea/
+
+coverage/
+*.lcov
+
+*.tsbuildinfo
