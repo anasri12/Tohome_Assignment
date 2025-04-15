@@ -17,23 +17,25 @@ npm install
 # How to Run the Server
 
 Development:
+
 ```bash
 npm run dev
 ```
 
 Production:
+
 ```bash
 npm run build
 npm start
 ```
 
 Server will start at:
-http://localhost:3000
+<http://localhost:3000>
 
 # Sample Requests using Postman
 
 Method: GET
-URL: http://localhost:3000/api/transformData
+URL: <http://localhost:3000/api/transformData>
 
 ```
 {
