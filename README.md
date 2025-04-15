@@ -5,7 +5,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tohome-assignment.git
+git clone https://github.com/anasri12/Tohome_Assignment.git
 ```
 
 2. Install dependencies:
