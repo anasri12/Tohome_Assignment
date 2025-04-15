@@ -29,12 +29,12 @@ npm run build
 npm start
 ```
 
-Server will start at:
+Server will start at:  
 <http://localhost:3000>
 
 # Sample Requests using Postman
 
-Method: GET\n
+Method: GET  
 URL: <http://localhost:3000/api/transformData>
 
 ```
