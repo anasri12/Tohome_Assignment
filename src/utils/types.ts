@@ -28,6 +28,16 @@ export interface User {
   role: string;
 }
 
+export interface DepartmentSummary {
+  male: number;
+  female: number;
+  ageRange: string;
+  hair: Record<string, number>;
+  addressUser: Record<string, string>;
+}
+
+export type TransformedDataType = Record<string, DepartmentSummary>;
+
 interface hairType {
   color: string;
   type: string;
