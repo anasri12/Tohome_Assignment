@@ -1,7 +1,9 @@
 import axios from "axios";
 import { TransformedDataType, User } from "../utils/types";
 
-export async function transformData(): Promise<TransformedDataType> {
+export async function transformData(
+  departmentFilter?: string
+): Promise<TransformedDataType> {
   const { data } = await axios.get("https://dummyjson.com/users");
   const users: User[] = data.users;
 
@@ -9,6 +11,8 @@ export async function transformData(): Promise<TransformedDataType> {
 
   for (const user of users) {
     const department = user.company.department;
+
+    if (departmentFilter && department !== departmentFilter) continue;
 
     if (!groupUsers[department]) {
       groupUsers[department] = {
