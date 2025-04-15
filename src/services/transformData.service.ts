@@ -41,7 +41,9 @@ export async function transformData(
     const ages = departmentUsers.map((user) => user.age);
     const minAge = Math.min(...ages);
     const maxAge = Math.max(...ages);
-    groupUsers[department].ageRange = `${minAge}-${maxAge}`;
+    minAge === maxAge
+      ? (groupUsers[department].ageRange = `${minAge}`)
+      : (groupUsers[department].ageRange = `${minAge}-${maxAge}`);
   }
 
   return groupUsers;

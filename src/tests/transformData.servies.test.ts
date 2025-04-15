@@ -31,7 +31,7 @@ describe("transformData", () => {
     expect(result.Support.male).toBe(1);
     expect(result.Support.female).toBe(0);
     expect(result.Support.hair.Green).toBe(1);
-    expect(result.Support.ageRange).toBe("35-35");
+    expect(result.Support.ageRange).toBe("35");
     expect(result.Support.addressUser).toHaveProperty(
       "MichaelWilliams",
       "38807"
