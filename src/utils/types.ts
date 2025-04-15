@@ -8,7 +8,7 @@ export interface User {
   phone: string;
   username: string;
   password: string;
-  birthdate: string;
+  birthDate: string;
   image: string;
   bloodGroup: "A+" | "A-" | "B+" | "B-" | "AB+" | "AB-" | "O+" | "O-";
   height: number;
