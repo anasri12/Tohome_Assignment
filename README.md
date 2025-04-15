@@ -34,7 +34,7 @@ Server will start at:
 
 # Sample Requests using Postman
 
-Method: GET
+Method: GET\n
 URL: <http://localhost:3000/api/transformData>
 
 ```
